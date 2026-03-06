@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter pub get)",
+      "Bash(python -c \"import json,sys; pkgs=[p for p in json.load\\(sys.stdin\\)[''packages''] if p[''name'']==''noise_meter'']; print\\(pkgs[0][''rootUri'']\\)\")"
+    ]
+  }
+}
