@@ -1,6 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
-    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-    <uses-permission android:name="android.permission.MICROPHONE" />
+    <uses-permission android:name="android.permission.TRANSMIT_IR" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- Almacenamiento: Android ≤12 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <!-- Almacenamiento: Android 13+ (audio) -->
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
     <application
         android:label="irphone"
         android:name="${applicationName}"

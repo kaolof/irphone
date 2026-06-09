@@ -9,7 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  noise_meter: ^5.0.2
+  just_audio: ^0.9.43
+  file_picker: ^8.1.7
   permission_handler: ^11.4.0
 
 dev_dependencies:
